@@ -2,37 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(https://images.unsplash.com/photo-1525034687081-c702010cb70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+header{
+    height: 200px;
+    background-color: red;
+    width: 1200px;
+    margin: 0 auto 20px;
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    background-size: cover;
 }
 
-header{
-     height:200px;
-     background-color: red;
-     width: 1200px;
-     margin: 0 auto 20px;
-     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
-     background-size: cover;
-     }
-     header h1{
+header h1{
          margin-bottom: 120px;
          color:white;
          text-align: center;
-     }
-     header h2{
-         color:white;
-         text-align: center;
-         
-     }
-.blocco {
-    background-color: white;
-    height: 400px;
-}
+    }
+#blocco {
+        background-color: black;
+        height: 300px;
+    }
 
+footer{
+    background-color: lightgrey;
+    height: 100px;
+    margin-top: 20px;
+}
 aside{
     width:20%;
     height: 250px;
     background-color: blue;
     float: left;
 }
+
 main{
     width: 58%;
     height: 100%;
@@ -41,11 +50,7 @@ main{
     margin-left: 1%;
     margin-right: 1%;
 }
-footer{
-    background-color: lightgrey;
-    height: 100px;
-    margin-top: 20px;
-}
+
 .menu{
     width: 1200px;
     height: 100px;
@@ -81,7 +86,4 @@ ul#menu li a {
 }
 ul#menu li.active, ul#menu li:hover {
 
-}
-p {
-    padding:0;
 }
