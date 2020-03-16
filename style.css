@@ -12,6 +12,16 @@ header{
      background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
      background-size: cover;
      }
+     header h1{
+         margin-bottom: 120px;
+         color:white;
+         text-align: center;
+     }
+     header h2{
+         color:white;
+         text-align: center;
+         
+     }
 .blocco {
     background-color: white;
     height: 400px;
@@ -71,4 +81,7 @@ ul#menu li a {
 }
 ul#menu li.active, ul#menu li:hover {
 
+}
+p {
+    padding:0;
 }
